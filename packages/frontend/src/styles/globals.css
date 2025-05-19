@@ -1,0 +1,29 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000;
+  padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arimo", sans-serif;
+}
+
+#root {
+  width: 100%;
+}
